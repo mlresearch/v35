@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Near-Optimal Herding | COLT 2014 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Near-Optimal Herding">
+
+  <meta name="citation_author" content="Harvey, Nick">
+
+  <meta name="citation_author" content="Samadi, Samira">
+
+<meta name="citation_publication_date" content="2014">
+<meta name="citation_conference_title" content="Proceedings of The 27th Conference on Learning Theory">
+<meta name="citation_firstpage" content="1165">
+<meta name="citation_lastpage" content="1182">
+<meta name="citation_pdf_url" content="harvey14.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Near-Optimal Herding</h1>
+
+	<div id="authors">
+	
+		Nick Harvey,
+	
+		Samira Samadi
+	</div>;
+	<div id="info">
+		JMLR W&amp;CP 35 
+		
+		: 
+		1165–1182, 2014
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>Herding is an algorithm of recent interest in the machine learning community, motivated by inference in Markov random fields. It solves the following sampling problem: given a set <span class="math">\(\mathcal{X} \subset \mathbb{R}^d\)</span> with mean <span class="math">\(\mu\)</span>, construct an infinite sequence of points from <span class="math">\(\mathcal{X}\)</span> such that, for every <span class="math">\(t \geq 1\)</span>, the mean of the first <span class="math">\(t\)</span> points in that sequence lies within Euclidean distance <span class="math">\(O(1/t)\)</span> of <span class="math">\(\mu\)</span>. The classic Perceptron boundedness theorem implies that such a result actually holds for a wide class of algorithms, although the factors suppressed by the <span class="math">\(O(1/t)\)</span> notation are exponential in <span class="math">\(d\)</span>. Thus, to establish a non-trivial result for the sampling problem, one must carefully analyze the factors suppressed by the <span class="math">\(O(1/t)\)</span> error bound.</p>
+<p>This paper studies the best error that can be achieved for the sampling problem. Known analysis of the Herding algorithm give an error bound that depends on geometric properties of <span class="math">\(\mathcal{X}\)</span> but, even under favorable conditions, this bound depends linearly on <span class="math">\(d\)</span>. We present a new polynomial-time algorithm that solves the sampling problem with error <span class="math">\(O\left(\sqrt{d} \log^{2.5}|\mathcal{X}| / t \right)\)</span> assuming that <span class="math">\(\mathcal{X}\)</span> is finite. Our algorithm is based on recent algorithmic results in <em>discrepancy theory</em>. We also show that any algorithm for the sampling problem must have error <span class="math">\(\Omega( \sqrt{d} / t )\)</span>. This implies that our algorithm is optimal to within logarithmic factors.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="harvey14.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Stochastic Regret Minimization via Thompson Sampling | COLT 2014 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Stochastic Regret Minimization via Thompson Sampling">
+
+  <meta name="citation_author" content="Guha, Sudipto">
+
+  <meta name="citation_author" content="Munagala, Kamesh">
+
+<meta name="citation_publication_date" content="2014">
+<meta name="citation_conference_title" content="Proceedings of The 27th Conference on Learning Theory">
+<meta name="citation_firstpage" content="317">
+<meta name="citation_lastpage" content="338">
+<meta name="citation_pdf_url" content="guha14.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Stochastic Regret Minimization via Thompson Sampling</h1>
+
+	<div id="authors">
+	
+		Sudipto Guha,
+	
+		Kamesh Munagala
+	</div>;
+	<div id="info">
+		JMLR W&amp;CP 35 
+		
+		: 
+		317–338, 2014
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>The Thompson Sampling (TS) policy is a widely implemented algorithm for the stochastic multi-armed bandit (MAB) problem. Given a prior distribution over possible parameter settings of the underlying reward distributions of the arms, at each time instant, the policy plays an arm with probability equal to the probability that this arm has largest mean reward conditioned on the current posterior distributions of the arms. This policy generalizes the celebrated “probability matching” heuristic which has been experimentally and widely observed in human decision making. However, despite its ubiquity, the Thompson Sampling policy is poorly understood.</p>
+<p>Our goal in this paper is to make progress towards understanding the empirical success of this policy. We proceed using the lens of approximation algorithms and problem definitions from stochastic optimization. We focus on an objective function termed <span><em>stochastic regret</em></span> that captures the expected number of times the policy plays an arm that is not the eventual best arm, where the expectation is over the prior distribution. Given such a definition, we show that TS is a <span class="math">\(2\)</span>–approximation to the optimal decision policy in two extreme but canonical scenarios. One such scenario is the two-armed bandit problem which is used as a calibration point in all bandit literature. The second scenario is stochastic optimization where the outcome of a random variable is revealed in a single play to a high or low deterministic value. We show that the <span class="math">\(2\)</span> approximation is tight in both these scenarios. We provide an uniform analysis framework that in theory is capable of proving our conjecture that the TS policy is a <span class="math">\(2\)</span>–approximation to the optimal decision policy for minimizing stochastic regret, for any prior distribution and any time horizon.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="guha14.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

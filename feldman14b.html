@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Sample Complexity Bounds on Differentially Private Learning via Communication Complexity | COLT 2014 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Sample Complexity Bounds on Differentially Private Learning via Communication Complexity">
+
+  <meta name="citation_author" content="Feldman, Vitaly">
+
+  <meta name="citation_author" content="Xiao, David">
+
+<meta name="citation_publication_date" content="2014">
+<meta name="citation_conference_title" content="Proceedings of The 27th Conference on Learning Theory">
+<meta name="citation_firstpage" content="1000">
+<meta name="citation_lastpage" content="1019">
+<meta name="citation_pdf_url" content="feldman14b.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Sample Complexity Bounds on Differentially Private Learning via Communication Complexity</h1>
+
+	<div id="authors">
+	
+		Vitaly Feldman,
+	
+		David Xiao
+	</div>;
+	<div id="info">
+		JMLR W&amp;CP 35 
+		
+		: 
+		1000–1019, 2014
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>In this work we analyze the sample complexity of classification by differentially private algorithms. Differential privacy is a strong and well-studied notion of privacy introduced by Dwork et al. (2006) that ensures that the output of an algorithm leaks little information about the data point provided by any of the participating individuals. Sample complexity of private PAC and agnostic learning was studied in a number of prior works starting with (Kasiviswanathan et al., 2008) but a number of basic questions still remain open (Beimel et al. 2010; Chaudhuri and Hsu, 2011; Beimel et al., 2013a,b).</p>
+<p>Our main contribution is an equivalence between the sample complexity of differentially-private learning of a concept class <span class="math">\(C\)</span> (or <span class="math">\(\mathrm{SCDP}(C)\)</span>) and the randomized one-way communication complexity of the evaluation problem for concepts from <span class="math">\(C\)</span>. Using this equivalence we prove the following bounds:</p>
+<ul>
+<li><p><span class="math">\(\mathrm{SCDP}(C) = \Omega(\mathrm{LDim}(C))\)</span>, where <span class="math">\(\mathrm{LDim}(C)\)</span> is the Littlestone’s (1987) dimension characterizing the number of mistakes in the online-mistake-bound learning model. This result implies that <span class="math">\(\mathrm{SCDP}(C)\)</span> is different from the VC-dimension of <span class="math">\(C\)</span>, resolving one of the main open questions from prior work.</p></li>
+<li><p>For any <span class="math">\(t\)</span>, there exists a class <span class="math">\(C\)</span> such that <span class="math">\(\mathrm{LDim}(C)=2\)</span> but <span class="math">\(\mathrm{SCDP}(C) \geq t\)</span>.</p></li>
+<li><p>For any <span class="math">\(t\)</span>, there exists a class <span class="math">\(C\)</span> such that the sample complexity of (pure) <span class="math">\(\alpha\)</span>-differentially private PAC learning is <span class="math">\(\Omega(t/\alpha)\)</span> but the sample complexity of the relaxed <span class="math">\((\alpha,\beta)\)</span>-differentially private PAC learning is <span class="math">\(O(\log(1/\beta)/\alpha)\)</span>. This resolves an open problem from (Beimel et al., 2013b).</p></li>
+</ul>
+<p>We also obtain simpler proofs for a number of known related results. Our equivalence builds on a characterization of sample complexity by Beimel et al., (2013a) and our bounds rely on a number of known results from communication complexity.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="feldman14b.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

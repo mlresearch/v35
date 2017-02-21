@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>New Algorithms for Learning Incoherent and Overcomplete Dictionaries | COLT 2014 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="New Algorithms for Learning Incoherent and Overcomplete Dictionaries ">
+
+  <meta name="citation_author" content="Arora, Sanjeev">
+
+  <meta name="citation_author" content="Ge, Rong">
+
+  <meta name="citation_author" content="Moitra, Ankur">
+
+<meta name="citation_publication_date" content="2014">
+<meta name="citation_conference_title" content="Proceedings of The 27th Conference on Learning Theory">
+<meta name="citation_firstpage" content="779">
+<meta name="citation_lastpage" content="806">
+<meta name="citation_pdf_url" content="arora14.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>New Algorithms for Learning Incoherent and Overcomplete Dictionaries</h1>
+
+	<div id="authors">
+	
+		Sanjeev Arora,
+	
+		Rong Ge,
+	
+		Ankur Moitra
+	</div>;
+	<div id="info">
+		JMLR W&amp;CP 35 
+		
+		: 
+		779–806, 2014
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>In <span><em>sparse recovery</em></span> we are given a matrix <span class="math">\(A \in \mathbb{R}^{n\times m}\)</span> (“the dictionary”) and a vector of the form <span class="math">\(A X\)</span> where <span class="math">\(X\)</span> is <span><em>sparse</em></span>, and the goal is to recover <span class="math">\(X\)</span>. This is a central notion in signal processing, statistics and machine learning. But in applications such as <span><em>sparse coding</em></span>, edge detection, compression and super resolution, the dictionary <span class="math">\(A\)</span> is unknown and has to be learned from random examples of the form <span class="math">\(Y = AX\)</span> where <span class="math">\(X\)</span> is drawn from an appropriate distribution — this is the <span><em>dictionary learning</em></span> problem. In most settings, <span class="math">\(A\)</span> is <span><em>overcomplete</em></span>: it has more columns than rows. This paper presents a polynomial-time algorithm for learning overcomplete dictionaries; the only previously known algorithm with provable guarantees is the recent work of Spielman et al. (2012) who who gave an algorithm for the undercomplete case, which is rarely the case in applications. Our algorithm applies to <span><em>incoherent</em></span> dictionaries which have been a central object of study since they were introduced in seminal work of Donoho and Huo (1999). In particular, a dictionary is <span class="math">\(\mu\)</span>-incoherent if each pair of columns has inner product at most <span class="math">\(\mu / \sqrt{n}\)</span>.</p>
+<p>The algorithm makes natural stochastic assumptions about the unknown sparse vector <span class="math">\(X\)</span>, which can contain <span class="math">\(k \leq c \min(\sqrt{n}/\mu \log n, m^{1/2 - \eta})\)</span> non-zero entries (for any <span class="math">\(\eta &gt; 0\)</span>). This is close to the best <span class="math">\(k\)</span> allowable by the best sparse recovery algorithms <span><em>even if one knows the dictionary <span class="math">\(A\)</span> exactly</em></span>. Moreover, both the running time and sample complexity depend on <span class="math">\(\log 1/\epsilon\)</span>, where <span class="math">\(\epsilon\)</span> is the target accuracy, and so our algorithms converge very quickly to the true dictionary. Our algorithm can also tolerate substantial amounts of noise provided it is incoherent with respect to the dictionary (e.g., Gaussian). In the noisy setting, our running time and sample complexity depend polynomially on <span class="math">\(1/\epsilon\)</span>, and this is necessary.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="arora14.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>
