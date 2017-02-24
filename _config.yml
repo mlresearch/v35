@@ -1,0 +1,51 @@
+# Site settings
+# Auto generated from v35.bib
+---
+booktitle: Proceedings of The 27th Conference on Learning Theory
+volume: 35
+year: '2014'
+shortname: COLT
+start: 2014-06-13
+end: 2014-06-15
+published: 2014-05-29
+sections:
+- name: preface
+  title: Preface
+- name: default
+  title: Regular Papers
+- name: open
+  title: Open Problems
+layout: proceedings
+id: COLT-2014
+month: 0
+abstract: ''
+editor:
+- given: Maria Florina
+  family: Balcan
+- given: Vitaly
+  family: Feldman
+- given: Csaba
+  family: Szepesvári
+title: Proceedings of The 27th Conference on Learning Theory
+email: ''
+description: Proceedings of The 27th Conference on Learning Theory, Barcelona, Spain
+url: http://proceedings.mlr.press
+baseurl: "/v35"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v35
+conference:
+  name: Conference on Learning Theory
+  url: https://orfe.princeton.edu/conferences/colt2014/
+  location: Barcelona, Spain
+  dates:
+  - 2014-06-13
+  - 2014-06-14
+  - 2014-06-15
+analytics:
+  google:
+    tracking_id: UA-92432422-1
