@@ -31,6 +31,6 @@ issued:
   - 2014
   - 5
   - 29
-pdf: http://proceedings.mlr.press/v35/kleindessner14/kleindessner14.pdf
+pdf: http://proceedings.mlr.press/v35/kleindessner14.pdf
 # Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
 ---
