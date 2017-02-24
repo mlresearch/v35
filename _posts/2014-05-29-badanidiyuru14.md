@@ -8,6 +8,7 @@ abstract: We study contextual bandits with ancillary constraints on resources, w
   with resource constraints (bandits with knapsacks,  Badanidiyuru et al. (2013a)),
   and prove a regret guarantee with near-optimal statistical properties.
 layout: inproceedings
+series: Proceedings of Machine Learning Research
 id: badanidiyuru14
 month: 0
 firstpage: 1109

@@ -8,6 +8,7 @@ abstract: "Ordinal embedding refers to the following problem: all we know about 
   but finite set of points can be approximately reconstructed up to a similarity transformation.
   The main result of our paper is a formal proof of this conjecture."
 layout: inproceedings
+series: Proceedings of Machine Learning Research
 id: kleindessner14
 month: 0
 firstpage: 40

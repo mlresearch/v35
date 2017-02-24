@@ -15,6 +15,7 @@ abstract: Information spreads across social and technological networks, but ofte
   work.
 section: open
 layout: inproceedings
+series: Proceedings of Machine Learning Research
 id: gomezrodriguez14
 month: 0
 firstpage: 1276

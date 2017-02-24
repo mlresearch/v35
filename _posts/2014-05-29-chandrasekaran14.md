@@ -13,6 +13,7 @@ abstract: We study the problem of learning a most biased coin among a set of coi
   that employs an optimal adaptive strategy under a Bayesian setting for this problem.
   Our proof of optimality employs mathematical tools from the area of Markov games.
 layout: inproceedings
+series: Proceedings of Machine Learning Research
 id: chandrasekaran14
 month: 0
 firstpage: 394

@@ -1,5 +1,3 @@
-# Site settings
-# Auto generated from v35.bib
 ---
 booktitle: Proceedings of The 27th Conference on Learning Theory
 volume: 35
@@ -16,6 +14,7 @@ sections:
 - name: open
   title: Open Problems
 layout: proceedings
+series: Proceedings of Machine Learning Research
 id: COLT-2014
 month: 0
 abstract: ''
@@ -49,3 +48,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v35.bib
