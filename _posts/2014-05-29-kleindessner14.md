@@ -12,7 +12,6 @@ series: Proceedings of Machine Learning Research
 id: kleindessner14
 month: 0
 firstpage: 40
-order: 40
 lastpage: 67
 page: 40-67
 sections: 
