@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: chandrasekaran14
 month: 0
+tex_title: Finding a most biased coin with fewest flips
 firstpage: 394
 lastpage: 407
 page: 394-407

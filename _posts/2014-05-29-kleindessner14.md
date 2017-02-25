@@ -11,6 +11,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: kleindessner14
 month: 0
+tex_title: Uniqueness of Ordinal Embedding
 firstpage: 40
 lastpage: 67
 page: 40-67

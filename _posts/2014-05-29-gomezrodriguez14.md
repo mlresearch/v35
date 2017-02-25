@@ -18,6 +18,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: gomezrodriguez14
 month: 0
+tex_title: 'Open Problem: Finding Good Cascade Sampling Processes for the Network
+  Inference Problem'
 firstpage: 1276
 lastpage: 1279
 page: 1276-1279

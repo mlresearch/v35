@@ -11,6 +11,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: badanidiyuru14
 month: 0
+tex_title: Resourceful Contextual Bandits
 firstpage: 1109
 lastpage: 1134
 page: 1109-1134
