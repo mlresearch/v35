@@ -15,7 +15,8 @@ tex_title: Uniqueness of Ordinal Embedding
 firstpage: 40
 lastpage: 67
 page: 40-67
-sections: 
+order: 40
+cycles: false
 author:
 - given: Matthäus
   family: Kleindessner

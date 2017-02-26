@@ -15,7 +15,8 @@ tex_title: Resourceful Contextual Bandits
 firstpage: 1109
 lastpage: 1134
 page: 1109-1134
-sections: 
+order: 1109
+cycles: false
 author:
 - given: Ashwinkumar
   family: Badanidiyuru

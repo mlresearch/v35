@@ -20,7 +20,8 @@ tex_title: Finding a most biased coin with fewest flips
 firstpage: 394
 lastpage: 407
 page: 394-407
-sections: 
+order: 394
+cycles: false
 author:
 - given: Karthekeyan
   family: Chandrasekaran

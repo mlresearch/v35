@@ -23,7 +23,8 @@ tex_title: 'Open Problem: Finding Good Cascade Sampling Processes for the Networ
 firstpage: 1276
 lastpage: 1279
 page: 1276-1279
-sections: 
+order: 1276
+cycles: false
 author:
 - given: Manuel
   family: Gomez-Rodriguez
