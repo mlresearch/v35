@@ -66,6 +66,7 @@ conference:
   - 2014-06-13
   - 2014-06-14
   - 2014-06-15
+  number: 27
 analytics:
   google:
     tracking_id: UA-92432422-1
