@@ -17,9 +17,6 @@ layout: proceedings
 series: Proceedings of Machine Learning Research
 id: COLT-2014
 month: 0
-abstract: ''
-tex_title: 
-title: Proceedings of Machine Learning Research
 cycles: false
 editor:
 - given: Maria Florina
@@ -28,6 +25,7 @@ editor:
   family: Feldman
 - given: Csaba
   family: Szepesvári
+title: Proceedings of Machine Learning Research
 description: |
   Proceedings of The 27th Conference on Learning Theory
     Held in Barcelona, Spain on 13-15 June 2014
@@ -45,7 +43,7 @@ description: |
 date_str: 13--15 Jun
 url: http://proceedings.mlr.press
 baseurl: "/v35"
-twitter_username: mlresearch
+twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
@@ -57,6 +55,7 @@ display:
     bibtex: true
     endnote: true
     apa: true
+    ris: true
   comments: false
 email: ''
 conference:
@@ -72,3 +71,4 @@ analytics:
     tracking_id: UA-92432422-1
 # Site settings
 # Auto generated from v35.bib
+---
